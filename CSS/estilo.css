@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* Formatação do corpo */
+body {
+    background-color: #dddddd;
+    color: rgba(0,0,0,1);
+}
+
+div#interface {
+    width: 1400px;
+    background-color: #ffffff;
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* Formatação da barra de pesquisa*/
+input#searchbar.form-control {
+}
+
+/* Formatação do rodapé */
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
