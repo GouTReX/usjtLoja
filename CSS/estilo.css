@@ -12,6 +12,53 @@ div#interface {
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     padding: 10px;
 }
+.topo{
+    height: 100px;
+    width: 100%;
+    background-color:palegreen;
+}
+.topo #logo{
+    width: 300px;
+    height: 80px;
+    background: yellow;
+    margin: 0.5%;
+}
+.usuario{
+    width: 400px;
+    height: 80px;
+    background: yellow;
+    float: right;
+    margin:0.5%;
+}
+.container #categorias{
+    width: 200px;
+    height: 900px;
+    background-color:greenyellow;
+    float: left;
+    margin-left: -110px;
+    margin-top: -900px;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+.container #produtos{
+    width: 950px;
+    height: 900px;
+    background-color: yellow;
+    margin-left: 111px;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+.container #carrinho{
+    width: 200px;
+    height: 900px;
+    background-color:greenyellow;
+    float: right;
+    margin-right: -110px;
+    margin-top: -900px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
 
 p {
     text-align: justify;
@@ -20,6 +67,7 @@ p {
 
 /* Formatação da barra de pesquisa*/
 input#searchbar.form-control {
+    width: 500px;
 }
 
 /* Formatação do rodapé */
