@@ -6,11 +6,13 @@ body {
 }
 
 .container {
-    width: 1400px;
+    width: 1600px;
     background-color: #ffffff;
     margin: 0px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-    padding: 10px;
+}
+header{
+    height: 100%;
 }
 .topo{
     height: 100px;
@@ -18,22 +20,25 @@ body {
     background-color:palegreen;
 }
 .topo #logo{
-    width: 300px;
-    height: 80px;
+    width: 30%;
+    height: 80%;;
     background: yellow;
-    margin: 0.5%;
+    float: left;
+    margin: 1%;
 }
 .usuario{
-    width: 400px;
-    height: 80px;
+    width: 30%;
+    height: 80%;
     background: yellow;
     float: right;
-    margin:0.5%;
+    margin: 1%;
+}
+#menu{
+    margin-top:1%;
 }
 #boxImg  {
-	width:    1200px;
-	height:   350px;
-	margin:   0 auto;
+	width:    100%;
+	height:  100%;
 	position: relative;
 	overlay:  hidden;
     image-resolution: from-image;
@@ -41,56 +46,51 @@ body {
 }
 #flechaEsq, #flechaDir  {
 	position:         absolute;
-	top:              140px;
+	top:              40%;
 	opacity:          0.7;
 	background-color: #ccc;
 	border-radius:    50%;
-	width:            80px;
-	height:           80px;
+	width:            5%;
+	height:           17%;
 	cursor:           pointer;
 }
 #flechaEsq  {
-	padding:    8px 0px 0px 9px;
+	padding:    1.3% 0% 0% 1.2%;
 	box-sizing: border-box;
-	left:       20px;
+	left:       2%;
 }
 #flechaEsq:hover, #flechaDir:hover  {
 	opacity: 0.5;
 }
 #flechaDir  {
-	padding:    8px 0px 0px 16px;
+	padding:    1.3% 0% 0% 1.2%;
 	box-sizing: border-box;
-	right:      20px;
+	right:      2%;
 }
-
-.container #categorias{
-    width: 200px;
+.produtos{
+    margin-top: 20px;;
+}
+.produtos #categorias{
+    width: 18%;
     height: 900px;
     background-color:greenyellow;
     float: left;
-    margin-left: -110px;
-    margin-top: -900px;
     border-radius: 5px 5px 5px 5px;
     
 }
-.container #produtos{
-    width: 950px;
-    height: 900px;
-    background-color: yellow;
-    margin-left: 111px;
-    border-radius: 20px 20px 20px 20px;
-    
-}
-.container #carrinho{
-    width: 200px;
+.produtos #carrinho{
+    width:18%;
     height: 900px;
     background-color:greenyellow;
     float: right;
-    margin-right: -110px;
-    margin-top: -900px;
     border-radius: 5px 5px 5px 5px;
 }
-
+.produtos #produtosHome{
+    width: 62%;
+    margin: 0 auto;
+    background-color: yellow;
+    border-radius:  10px 10px 10px 10px;
+}
 
 
 p {
@@ -105,6 +105,9 @@ input#searchbar.form-control {
 
 /* Formatação do rodapé */
 footer#rodape {
-    clear: both;
-    border-top: 1px solid #606060;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    margin-top: 1%;
+    border-radius: 15px 15px 15px 15px;
 }
