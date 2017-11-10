@@ -15,92 +15,48 @@ div#interface {
 }
 
 
+
 /* Formatação da barra de pesquisa*/
 
 /* ###Logo, Login e Cadastro### */
-nav .Login{
-    margin-right: 1%;
-}
 
 nav#menu {
     margin-top: -21px;
     background-color: black;
 }
 
-input#searchbar {
+
+/* Contato :D-*/
+.contato{
+    height: 500px;
+    background-color: bisque;
+    border-radius: 20px 20px 20px 20px;
 }
-
-
-
-
-/* Formatação da Galeria*/
-div#novidades {
-    display: block;
-    position: relative;
+.contato h2{
+    width: 100%;
+    text-align: center;
+}
+.contato #nome{
+    max-width: 100%;
+}
+.contato #email{
+    max-width: 100%;
+}
+.contato #mensagem{
+    max-width: 100%;
+    min-height:200px;
+    float: none;
     margin: 0 auto;
+    text-align: left;
+    overflow: scroll;
 }
-div#novidades img {
-    width:100%;  
-}
-
-div#arrowleft {
-    
-    box-sizing: border-box;
-    left: 20px;
-    position: absolute;
-    top: 40%;
-    opacity: 0.7;
-    background-color: #ccc;
-    border-radius: 50%;
-    width: 56px;
-    height: 60px;
-    cursor: pointer;
-    font-size:4em;
-}
-
-div#arrowright {
-    box-sizing: border-box;
-    right: 20px;
-    position: absolute;
-    top: 40%;
-    opacity: 0.7;
-    background-color: #ccc;
-    border-radius: 50%;
-    width: 56px;
-    height: 60px;
-    cursor: pointer;
-    font-size:4em;
-}
-
-div#arrowleft:hover, div#arrowright:hover {
-    opacity: 0.5;
-}
-/* Formatação do Corpo */
-
-div.produtos {
-    margin-top: 20px;
-}
-div.produtos #categorias{
-    width: 18%;
-    height: 900px;
-    background-color:#606060;
-    float: left;
+.mensagem #enviar{
     border-radius: 5px 5px 5px 5px;
-    
+    font-size: 25px
 }
-div.produtos #carrinho{
-    width:18%;
-    height: 900px;
-    background-color:#606060;
-    float: right;
-    border-radius: 5px 5px 5px 5px;
-}
-div.produtos #produtosHome{
-    width: 62%;
-    margin: 0 auto;
-    background-color: #606060;
-    border-radius:  10px 10px 10px 10px;
-}
+
+
+
 
 /* Formatação do rodapé */
 footer#rodape {

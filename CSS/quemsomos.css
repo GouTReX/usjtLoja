@@ -15,92 +15,92 @@ div#interface {
 }
 
 
+
 /* Formatação da barra de pesquisa*/
 
 /* ###Logo, Login e Cadastro### */
-nav .Login{
-    margin-right: 1%;
-}
 
 nav#menu {
     margin-top: -21px;
     background-color: black;
 }
 
-input#searchbar {
+
+/* Quem Somos :D-*/
+#QuemSomos{
+    height: 790px;
+    background-color: greenyellow;
+    border-radius: 15px 15px 15px 15px;
+    padding: 35px;
 }
-
-
-
-
-/* Formatação da Galeria*/
-div#novidades {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-}
-div#novidades img {
-    width:100%;  
-}
-
-div#arrowleft {
-    
-    box-sizing: border-box;
-    left: 20px;
-    position: absolute;
-    top: 40%;
-    opacity: 0.7;
-    background-color: #ccc;
-    border-radius: 50%;
-    width: 56px;
-    height: 60px;
-    cursor: pointer;
-    font-size:4em;
-}
-
-div#arrowright {
-    box-sizing: border-box;
-    right: 20px;
-    position: absolute;
-    top: 40%;
-    opacity: 0.7;
-    background-color: #ccc;
-    border-radius: 50%;
-    width: 56px;
-    height: 60px;
-    cursor: pointer;
-    font-size:4em;
-}
-
-div#arrowleft:hover, div#arrowright:hover {
-    opacity: 0.5;
-}
-/* Formatação do Corpo */
-
-div.produtos {
-    margin-top: 20px;
-}
-div.produtos #categorias{
-    width: 18%;
-    height: 900px;
-    background-color:#606060;
-    float: left;
-    border-radius: 5px 5px 5px 5px;
+.quemsomosLoja{
+    padding: 2%;
+    background-color:salmon;
+    border-radius: 15px 15px 15px 15px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
     
 }
-div.produtos #carrinho{
-    width:18%;
-    height: 900px;
-    background-color:#606060;
-    float: right;
-    border-radius: 5px 5px 5px 5px;
+
+.nata{
+    margin-top:2%;
+    height: 250px;
+    background-color: salmon;
+    border:4px solid #84d6ff;
+    border-radius: 15px 15px 15px 15px;
 }
-div.produtos #produtosHome{
-    width: 62%;
-    margin: 0 auto;
-    background-color: #606060;
-    border-radius:  10px 10px 10px 10px;
+.nata #nataImg{
+    margin: 2%;
+    margin-top: 5%;
 }
+.nata h2{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size:35px;
+}
+.nata p{
+    width: 70%;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -12%;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+
+.leo{
+    margin-top: 2%;
+    height: 250px;
+    background-color: salmon;
+    border:4px solid #84d6ff;
+    border-radius: 15px 15px 15px 15px;
+}
+.leo #leoImg{
+    margin: 2%;
+    margin-top: 5%;
+}
+.leo h2{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size:35px;
+}
+.leo p{
+    width: 70%;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -12%;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
 
 /* Formatação do rodapé */
 footer#rodape {
