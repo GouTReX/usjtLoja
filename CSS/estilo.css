@@ -18,20 +18,23 @@ div#interface {
 /* Formatação da barra de pesquisa*/
 
 /* ###Logo, Login e Cadastro### */
-nav .Login{
-    margin-right: 1%;
+
+nav#login ul {
+    margin-right: 0px;
 }
 
+nav#login ul li a{
+    color: #000000;
+}
 nav#menu {
     margin-top: -21px;
-    background-color: black;
+    background-color: #000000;
 }
 
 input#searchbar {
+    padding-right: 400px;
+    right: -117px;
 }
-
-
-
 
 /* Formatação da Galeria*/
 div#novidades {
@@ -75,33 +78,108 @@ div#arrowright {
 div#arrowleft:hover, div#arrowright:hover {
     opacity: 0.5;
 }
+
 /* Formatação do Corpo */
 
 div.produtos {
     margin-top: 20px;
 }
+
 div.produtos #categorias{
-    width: 18%;
-    height: 900px;
+    height:1600px;
     background-color:#606060;
     float: left;
     border-radius: 5px 5px 5px 5px;
     
 }
+
 div.produtos #carrinho{
-    width:18%;
     height: 900px;
     background-color:#606060;
     float: right;
     border-radius: 5px 5px 5px 5px;
 }
+
 div.produtos #produtosHome{
-    width: 62%;
+    left: 10px;
+    width: 65%;
     margin: 0 auto;
+    height: 1600px;
     background-color: #606060;
     border-radius:  10px 10px 10px 10px;
 }
+/* Formatação das tabelas de categorias */
+table>thead>tr>th {
+    text-align: center;
+    font-size: 12pt;
+}
 
+div#processadores {
+    background-color: #ccc;
+    height: 30%;
+    border-radius: 10px;
+    
+}
+
+div#placasMae {
+    margin-top: 13px;
+    background-color: #ccc;
+    height: 33%;
+    border-radius: 10px;
+}
+
+div#gpu {
+    margin-top: 13px;
+    background-color: #ccc;
+    height: 30%;
+    border-radius: 10px;
+}
+
+/* Formatação dos Produtos da Home */
+div#produtos {
+    display: block;
+    width: 100%;
+    height: 1550px;
+    float: left;
+    margin: 25px 0px;
+    background-color: #ccc;
+}
+
+div#produtos td {
+    width: 200px;
+    text-align: center;
+    vertical-align: top;
+}
+
+div#produtos td p{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #000;
+}
+
+div#produtos td span {
+    color: #fff;
+    background-color: #606060;
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 0px 21px;
+    border-radius: 20px;;
+}
+/* Formatação do Carrinho e Lista de Desejos */
+div#pedidosCarrinho {
+    margin-top: 30px;
+    background-color: #ccc;
+    height: 45%;
+    border-radius: 10px;
+}
+
+div#listaDeDesejos {
+    margin-top: 13px;
+    background-color: #ccc;
+    height: 45%;
+    border-radius: 10px;
+}
 /* Formatação do rodapé */
 footer#rodape {
     clear: both;
@@ -130,7 +208,7 @@ footer#rodape p {
 .informacoes p{
     font-family: arial, sans-serif;
     margin-top: 3%;
-    font-size: 86%;
+    font-size: 83%;
     text-align: center;
 }
 .newsletter{
