@@ -4,11 +4,11 @@ $(document).ready(
         var legenda = new Array();
         var cont = 0;
         
-        produto[0]= "img/produtos/ProcessadorqRyzen1800X/box.jpg";  
+        produto[0]= "img/produtos/Processador/Ryzen1800X/box.jpg";  
         
-        produto[1]= "img/produtos/placamae/amd/MSI-X370-XPower-Gaming-Titanium/cima.jpg";
+        produto[1]= "img/produtos/Processador/Ryzen1800X/cpu.jpg";
         
-        produto[2]= "img/produtos/placamae/amd/MSI-X370-XPower-Gaming-Titanium/conectores.jpg";
+        produto[2]= "img/produtos/Processador/Ryzen1800X/amd-ryzen.png";
         
 
         carregaDestaque(0);
